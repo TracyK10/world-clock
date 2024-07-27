@@ -15,12 +15,21 @@ select{
     display: block;
     border-radius: 5px;
     font-size: 18px;
+    font-family: "Jersey 15", sans-serif;
+    border: none;
 }
 
 h1{
     text-align: center;
     font-family: "Jersey 15", sans-serif;
     font-size: 56px;
+    font-weight: 500;
+}
+
+p{
+    text-align: center;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -31,9 +40,13 @@ h2{
 }
 footer{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.8);
     padding: 10px;
+}
+
+.name{
+    font-weight: 600;
 }
 
 .container{
@@ -41,7 +54,7 @@ footer{
     margin: 60px auto;
     background-color: rgba(214, 210, 210, 0.8);
     padding: 30px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(32, 83, 73, 0.5);
     border-radius: 10px;
 }
 
@@ -49,7 +62,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.7);
     padding: 30px 0;
 }
 
@@ -72,4 +85,13 @@ footer{
     font-size: 24px;
     line-height: 36px;
     vertical-align: middle;
+}
+
+.back-link{
+    color: #333;
+    font-size: 26px;
+}
+
+ion-icon{
+    font-size: 18px;
 }

@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
@@ -13,10 +15,11 @@
   </head>
   <body>
     <div class="container">
-    <h1>World Clock</h1>
+    <h1>Studio Ghibli World Clock</h1>
+    <p>Feel free to check what time it is in your city below!</p>
     <select id="city">
         <option value="">Select a city...</option>
-        <option value="current">My local timezone</option>
+        <option value="current">My current timezone</option>
         <option value="Europe/London">London</option>
         <option value="America/New_York">New York</option>
         <option value="Asia/Seoul">Seoul</option>
@@ -40,8 +43,9 @@
   </div>
     <div>
       <footer>
-      This project was coded by <strong>
-      Tracy Karanja</strong>🌸 and is
+        <p>Coded by <span class="name">
+      Tracy Karanja</span>🌸</p>
+      This project was  and is
       <a
         href="https://github.com/TracyK10/world-clock"
         target="_blank"
