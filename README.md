@@ -1,4 +1,4 @@
-## World Clock
+# World Clock
 
 This project is a web application that displays the current time in different cities around the world. It also allows users to select a city from a dropdown menu and display the current date and time for that city, updating every second. The application is styled with custom fonts and includes a beautiful background image inspired by Studio Ghibli.
 
